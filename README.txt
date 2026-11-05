@@ -1,22 +1,45 @@
-PIT STOP - Tanıtım sitesi
+PIT STOP — KURUMSAL TANITIM SITESI V2
+====================================
 
-İçerik:
-- index.html: tek sayfalık kurumsal tanıtım sitesi
-- gizlilik.html: geçici gizlilik bilgilendirmesi
+Bu dosyalar mevcut https://pit-stop-website.vercel.app adresindeki sitenin yeni tasarımıdır.
+GitHub deposu: https://github.com/Eei0/pit-stop-website
 
-Hızlı ön izleme: index.html dosyasını tarayıcıda aç.
+DOSYALAR:
+index.html        -> Ana sayfa içeriği
+styles.css        -> Renk, yazı tipi, boyut, yerleşim
+script.js         -> Mobil menü ve yıl bilgisi
+gizlilik.html     -> Gizlilik bilgilendirmesi
+assets/           -> Görseller ve favicon
 
-Yayınlama (Vercel):
-1) Vercel hesabına giriş yap.
-2) Statik siteyi bir GitHub deposuna yükle, ardından Vercel'de New Project > Import ile projeyi seç.
-3) Framework Preset: Other (statik HTML). Build komutu gerekmez. Output directory proje kökü olarak kalabilir.
-4) Dağıtım sonrası size verilen HTTPS adresini kontrol et.
+YEREL KURULUM:
+1. Bu ZIP içeriğini VS Code'da açık PIT STOP web sitesi klasörüne çıkart.
+2. Aynı isimdeki index.html/gizlilik.html dosyalarının üzerine yazmayı onayla.
+3. styles.css, script.js ve assets klasörünün de aynı dizinde olduğundan emin ol.
+4. index.html dosyasına çift tıklayarak önizleyebilirsin.
 
-Alternatif: Netlify üzerinde dosyaları içeren klasörü manuel yükleyerek yayınlayabilirsin.
+GITHUB'A GONDERME:
+VS Code terminalinde sitenin bulunduğu proje klasöründe sırayla:
+  git add .
+  git commit -m "PIT STOP kurumsal site V2 tasarim"
+  git push
+Vercel GitHub bağlantısı üzerinden otomatik yayımlar.
 
-ÖNEMLİ:
-- Bu site internete otomatik yayımlanmaz. Yayınlama adımını sen yapmalısın.
-- İletişim kanalı bilinmediğinden uydurma e-posta, telefon veya şirket adresi eklenmedi.
-- Academy ve Partner plan aşamasında olarak belirtiliyor.
-- gizlilik.html mevcut tanıtım sitesiyle sınırlı bir ön metindir; yasal uyum çalışmasının yerini tutmaz.
-- Alan adı eklemek, Meta işletme doğrulamasını veya WhatsApp hesap kilidini tek başına kaldırmaz.
+ILETISIM:
+E-posta: eeisciler0@gmail.com
+Telefon: +90 507 593 72 88
+Bu bilgileri değiştirmek için index.html ve gizlilik.html içindeki aynı bilgileri düzenle.
+
+UYARILAR:
+- PIT STOP halen geliştirme aşamasındadır. Sitede de böyle anlatılmıştır.
+- Görseller önceki PIT STOP sunumuna ait konsept görsellerden hazırlanmıştır; gerçek açılmış şube fotoğrafı değildir.
+- Dashboard görseli HTML/CSS ile hazırlanmış temsili arayüzdür.
+- Gizlilik metni tanıtım sitesinin mevcut durumunu açıklar; kapsamlı hukuki uyum belgesi değildir.
+- Site Meta işletme doğrulamasını veya WhatsApp kısıtlamasını tek başına çözmez.
+
+
+GUNCEL LOGO (5 Kasim 2026)
+- assets/pitstop-logo.png: Secilen hiz gostergeli P + PIT STOP wordmark.
+- assets/pitstop-logo-full.png: Footer / buyuk gorunum.
+- assets/pitstop-icon.png: Sadece amblem (favicon).
+- Logo dosyalari onaylanan marka onizlemesinden temizlenmis PNG'dir. Vektorel baski icin daha sonra profesyonel SVG calismasi yapilmalidir.
+- GitHub'a gondermek icin: git add . ; git commit -m "PIT STOP yeni hiz ikonlu logo" ; git push origin main

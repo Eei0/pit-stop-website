@@ -1,33 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101113">
-  <meta name="description" content="PIT STOP: Otomotiv servisleri için dijital yönetim, operasyon standardı ve iş ortaklığı vizyonu.">
-  <title>PIT STOP | Servisin Geleceğini Yeniden Tasarla</title>
+  <meta name="theme-color" content="#0b0c0e">
+  <meta name="description" content="PIT STOP: Bağımsız otomotiv servisleri için dijital yönetim, güçlü operasyon standardı ve yeni nesil iş ortaklığı vizyonu.">
+  <meta property="og:title" content="PIT STOP | İyi servis, doğru sistemle başlar.">
+  <meta property="og:description" content="PIT STOP OS, Partner ve Academy ile servis işletmeciliğinin geleceğine yeni bir yaklaşım.">
+  <meta property="og:type" content="website">
+  <title>PIT STOP | İyi servis, doğru sistemle başlar.</title>
+  <link rel="icon" type="image/png" href="assets/pitstop-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{--bg:#0d0e10;--panel:#17191c;--panel2:#1f2226;--line:#323438;--fg:#f7f7f7;--muted:#aeb3b9;--red:#e63e39;--red2:#ff645e;--max:1140px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button{font:inherit} .wrap{max-width:var(--max);margin:auto;padding:0 28px}
-    .nav{position:sticky;top:0;z-index:30;background:rgba(13,14,16,.87);backdrop-filter:blur(20px);border-bottom:1px solid #ffffff1b}.nav-in{height:77px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-family:Manrope,sans-serif;font-size:23px;font-weight:800;letter-spacing:.12em}.mark{display:grid;place-items:center;width:38px;height:38px;background:var(--red);border-radius:11px;transform:skew(-9deg)}.mark svg{transform:skew(9deg)}.brand small{font-size:9px;display:block;letter-spacing:.26em;color:var(--muted);font-weight:700;margin-top:0}.links{display:flex;align-items:center;gap:28px;font-size:13px;color:#d6d8dc}.links a:hover,.footer a:hover{color:var(--red2)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--red);border:1px solid var(--red);border-radius:10px;padding:14px 20px;font-weight:700;font-size:13px;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:var(--red2)}.btn-outline{border-color:#ffffff48;background:#ffffff0a}.btn-outline:hover{background:#ffffff16}.mobile-nav{display:none}
-    .hero{position:relative;overflow:hidden;min-height:660px;display:flex;align-items:center;background:radial-gradient(ellipse at 82% 43%,#6f191f5a 0%,transparent 36%),linear-gradient(110deg,#111316 25%,#1e1719 90%)}.hero:before{content:'';position:absolute;inset:0;background-image:linear-gradient(#ffffff07 1px,transparent 1px),linear-gradient(90deg,#ffffff07 1px,transparent 1px);background-size:68px 68px;mask-image:linear-gradient(90deg,transparent,#000)}.hero:after{content:'';position:absolute;width:500px;height:500px;right:-140px;top:48px;border:1px solid #e63e3950;border-radius:50%;box-shadow:0 0 0 65px #e63e3909,0 0 0 130px #e63e3908,0 0 0 195px #e63e3905}.hero .wrap{width:100%;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:11px;letter-spacing:.18em;font-weight:700;text-transform:uppercase;color:#f4a3a0}.eyebrow:before{content:'';width:22px;height:2px;background:var(--red)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,sans-serif}h1{max-width:800px;margin:26px 0 24px;font-size:clamp(43px,6.4vw,80px);line-height:1.08;letter-spacing:-.055em;font-weight:800}h1 em{font-style:normal;color:var(--red2)}.lead{font-size:17px;line-height:1.85;max-width:570px;color:#c6c9ce}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:36px}.mini{margin-top:70px;display:flex;align-items:center;gap:18px;color:#a5a8ad;font-size:12px}.mini .bar{width:44px;height:1px;background:var(--red)}
-    section{padding:110px 0}.section-head{max-width:725px;margin-bottom:45px}.section-head h2{font-size:clamp(32px,4vw,49px);line-height:1.18;letter-spacing:-.045em;margin:17px 0}.section-head p{color:var(--muted);line-height:1.85;font-size:15px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:linear-gradient(145deg,#1b1e21,#141619);border:1px solid var(--line);border-radius:18px;padding:34px;min-height:340px;display:flex;flex-direction:column}.card-icon{width:52px;height:52px;border-radius:13px;background:#e63e391b;color:var(--red2);display:grid;place-items:center;font-size:25px;font-weight:bold;margin-bottom:38px}.card h3{font-size:22px;letter-spacing:-.03em;margin-bottom:14px}.card p{color:var(--muted);font-size:14px;line-height:1.8}.card .foot{font-size:11px;letter-spacing:.12em;color:#f19c99;text-transform:uppercase;font-weight:700;margin-top:auto}.band{background:#131518;border-block:1px solid #ffffff12}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}.step{border-top:1px solid #595c63;padding-top:22px}.step b{display:block;color:var(--red2);font-size:13px;margin-bottom:26px}.step h3{font-size:18px}.step p{font-size:13px;color:var(--muted);line-height:1.8}.feature{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.screen{border-radius:19px;background:#101215;border:1px solid #45484d;padding:14px;box-shadow:0 28px 85px #0008}.screenbar{display:flex;gap:5px;padding:9px 12px 19px}.screenbar i{width:7px;height:7px;border-radius:50%;background:#5b6268}.screenbar i:first-child{background:var(--red)}.screenin{background:#191b1f;border:1px solid #292c31;border-radius:10px;padding:28px}.screenin h4{margin:0 0 7px;font-size:15px}.screenin .sub{color:#858b93;font-size:11px;margin-bottom:24px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.stat{padding:16px 10px;border:1px solid #383b40;border-radius:9px;background:#212429}.stat strong{font:800 27px Manrope,sans-serif;display:block}.stat span{font-size:9px;color:#9fa6ac}.fake-row{margin-top:11px;border-radius:8px;background:#24272b;padding:14px;display:flex;align-items:center;justify-content:space-between;font-size:11px}.fake-row span{color:#f7b0ad}.feature h2{font-size:clamp(30px,3vw,46px);line-height:1.18;letter-spacing:-.045em}.feature p{line-height:1.85;color:var(--muted)}.ticks{padding:0;list-style:none;margin:25px 0}.ticks li{margin:13px 0;color:#dadde0;font-size:14px}.ticks li:before{content:'✓';color:var(--red2);margin-right:12px}.cta{padding:92px 0;background:linear-gradient(120deg,#5a2021,#241517 75%);border-block:1px solid #b3414159}.cta h2{font-size:clamp(30px,4vw,50px);letter-spacing:-.045em;margin-bottom:16px}.cta p{color:#e2c6c6;line-height:1.8;max-width:700px}.notice{font-size:12px;color:#b6adb0;margin-top:25px;max-width:760px}.footer{padding:48px 0;color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:22px;border-bottom:1px solid #ffffff22;padding-bottom:25px}.footer p{font-size:12px;line-height:1.7}.footer a{font-size:12px;margin-left:18px}.copyright{margin-top:22px;font-size:11px;color:#858b92}
-    @media(max-width:850px){.links{display:none}.mobile-nav{display:inline-flex}.hero{min-height:600px}.cards,.steps{grid-template-columns:1fr 1fr}.feature{grid-template-columns:1fr;gap:36px}.card{min-height:290px}}@media(max-width:560px){.wrap{padding:0 20px}.hero{min-height:610px}section{padding:72px 0}.cards,.steps{grid-template-columns:1fr}.card{min-height:250px}.mini{margin-top:50px}.stats{gap:5px}.stat strong{font-size:20px}.footer-inner{align-items:flex-start;flex-direction:column}.footer a{margin-left:0;margin-right:20px}}
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header class="nav"><div class="wrap nav-in"><a class="brand" href="#anasayfa"><span class="mark"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round"><path d="M5 17L12 5l7 12M8.5 12h7"/></svg></span><span>PIT STOP<small>OTOMOTİV TEKNOLOJİLERİ</small></span></a><nav class="links"><a href="#cozumler">Çözümlerimiz</a><a href="#yaklasim">Yaklaşımımız</a><a href="#os">PIT STOP OS</a><a href="#iletisim" class="btn" style="color:white">İletişim</a></nav><a class="btn mobile-nav" href="#iletisim">İletişim</a></div></header>
-  <main>
-    <section class="hero" id="anasayfa"><div class="wrap"><span class="eyebrow">OTOMOTİV SERVİSLERİ İÇİN YENİ NESİL YAKLAŞIM</span><h1>Servisini yönet.<br><em>Geleceğini büyüt.</em></h1><p class="lead">PIT STOP, bağımsız otomotiv servislerini dijital operasyon, kurumsal standartlar ve sürdürülebilir iş ortaklığı vizyonuyla buluşturan bir girişimdir.</p><div class="hero-actions"><a href="#cozumler" class="btn">PIT STOP'u keşfet <span aria-hidden="true">↗</span></a><a href="#os" class="btn btn-outline">Yazılımı tanı</a></div><div class="mini"><span class="bar"></span>DAHA ŞEFFAF SERVİS. DAHA GÜÇLÜ İŞLETME.</div></div></section>
-    <section id="cozumler"><div class="wrap"><div class="section-head"><span class="eyebrow">BİRLİKTE DAHA GÜÇLÜ</span><h2>Bir yazılımdan daha fazlasını tasarlıyoruz.</h2><p>Teknolojiyi, servis kalitesini ve işletme kültürünü aynı çatı altında birleştirmeyi hedefliyoruz.</p></div><div class="cards"><article class="card"><div class="card-icon">⌘</div><h3>PIT STOP OS</h3><p>Araç kabulünden servis geçmişine, müşteri iletişiminden finans yönetimine uzanan dijital servis yönetim platformu.</p><div class="foot">Yazılım platformu · geliştirme aşamasında</div></article><article class="card"><div class="card-icon">↗</div><h3>PIT STOP Partner</h3><p>Bağımsız işletmeler için kurumsal kimlik, atölye standartları ve teknoloji temelli iş ortaklığı modeli.</p><div class="foot">İş ortaklığı modeli · planlanıyor</div></article><article class="card"><div class="card-icon">✦</div><h3>PIT STOP Academy</h3><p>Teknisyen gelişimi, operasyon eğitimi ve kalite yönetimini desteklemek üzere tasarlanan eğitim yaklaşımı.</p><div class="foot">Eğitim programı · planlanıyor</div></article></div></div></section>
-    <section class="band" id="yaklasim"><div class="wrap"><div class="section-head"><span class="eyebrow">PIT STOP YAKLAŞIMI</span><h2>Her servis daha düzenli, daha ölçülebilir olabilir.</h2><p>Amacımız işletmelerin günlük iş akışlarını sadeleştirmek ve müşteriler için güvenilir bir servis deneyiminin temelini kurmak.</p></div><div class="steps"><div class="step"><b>01 / KAYIT</b><h3>İzlenebilir geçmiş</h3><p>VIN odaklı araç kayıtları, servis işlemleri ve teknik geçmişin düzenli takibi.</p></div><div class="step"><b>02 / OPERASYON</b><h3>Net iş akışları</h3><p>İş emirleri, teknisyen görevleri ve kalite kontrol adımlarında ortak düzen.</p></div><div class="step"><b>03 / İLETİŞİM</b><h3>Şeffaf bilgilendirme</h3><p>Müşteriye işlem detaylarının ve onay süreçlerinin açık biçimde sunulması.</p></div><div class="step"><b>04 / GELİŞİM</b><h3>Sürekli iyileştirme</h3><p>Eğitim, performans ölçümü ve işletme standartlarıyla sürdürülebilir gelişim.</p></div></div></div></section>
-    <section id="os"><div class="wrap feature"><div><span class="eyebrow">DİJİTAL SERVİS YÖNETİMİ</span><h2>Atölyeyi ve yönetimi aynı sistemde buluşturuyoruz.</h2><p>PIT STOP OS; servis danışmanının, teknisyenin ve işletme yöneticisinin ihtiyaçlarına göre şekillenen bir otomotiv servis yönetim yazılımıdır.</p><ul class="ticks"><li>Şase numarasına bağlı araç ve servis geçmişi</li><li>İş emirleri ve operasyon takibi</li><li>Müşteri, cari hesap ve tahsilat yönetimi</li><li>Stok, bildirimler ve dijital onay akışları</li><li>Atölye ve yönetim için ayrı yetki seviyeleri</li></ul><p style="font-size:12px">Platform geliştirme ve test aşamasındadır; özelliklerin kapsamı sürümlere göre değişebilir.</p></div><div class="screen" role="img" aria-label="PIT STOP OS için örnek yönetim paneli çizimi"><div class="screenbar"><i></i><i></i><i></i></div><div class="screenin"><h4>PIT STOP OS <span style="float:right;color:#e63e39">●</span></h4><div class="sub">Servis operasyonları · Temsili ekran</div><div class="stats"><div class="stat"><strong>08</strong><span>Bugünkü araç</span></div><div class="stat"><strong>04</strong><span>İşlemde</span></div><div class="stat"><strong>02</strong><span>Kontrol bekliyor</span></div></div><div class="fake-row"><strong>34 ABC 123</strong><span>İşlemde</span></div><div class="fake-row"><strong>59 XYZ 456</strong><span>Onay bekliyor</span></div><div class="fake-row"><strong>34 DEF 789</strong><span>Kontrolde</span></div></div></div></div></section>
-    <section class="cta" id="iletisim"><div class="wrap"><span class="eyebrow">GELİŞİM YOLCULUĞUMUZ</span><h2>Servis yönetiminin geleceğini birlikte tasarlıyoruz.</h2><p>PIT STOP projesi geliştirme aşamasındadır. İş ortaklığı, ürün tanıtımı ve iletişim kanallarımız resmî lansman sürecinde duyurulacaktır.</p><p class="notice">Bu site tanıtım amaçlıdır. Şu anda çevrimiçi başvuru veya kişisel veri toplayan iletişim formu kullanılmamaktadır.</p></div></section>
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
+  <header class="site-header" id="ust">
+    <div class="container header-inner">
+      <a class="brand" href="#ust" aria-label="PIT STOP ana sayfa">
+        <img class="brand-logo" src="assets/pitstop-logo.png" alt="PIT STOP" width="300" height="53">
+      </a>
+      <nav class="desktop-nav" aria-label="Ana menü">
+        <a href="#vizyon">Vizyonumuz</a>
+        <a href="#yazilim">PIT STOP OS</a>
+        <a href="#partner">Partner</a>
+        <a href="#academy">Academy</a>
+      </nav>
+      <a class="header-cta" href="#iletisim">İletişime geç <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Menüyü aç"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobil menü" hidden>
+      <a href="#vizyon">Vizyonumuz</a><a href="#yazilim">PIT STOP OS</a><a href="#partner">Partner</a><a href="#academy">Academy</a><a href="#iletisim">İletişim</a>
+    </nav>
+  </header>
+
+  <main id="icerik">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> OTOMOTİV SERVİSLERİ İÇİN YENİ BİR YAKLAŞIM</div>
+          <h1 id="hero-heading">İyi servis,<br><span>doğru sistemle</span><br>başlar<span class="period">.</span></h1>
+          <p>Ustalığı teknolojiyle, işletme kültürünü kurumsal bir vizyonla buluşturuyoruz. PIT STOP, servislerin bugününü kolaylaştırmak ve yarınını güçlendirmek için tasarlanıyor.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#vizyon">PIT STOP'u keşfet <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="#yazilim">Yazılımı incele <span aria-hidden="true">→</span></a></div>
+          <div class="hero-note"><span class="signal" aria-hidden="true"></span> Geliştirme aşamasındaki otomotiv teknolojileri projesi</div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/hero.webp" alt="Koyu renkli otomobilin yer aldığı modern, kırmızı detaylı PIT STOP konsept servis ortamı" width="1600" height="1000" fetchpriority="high">
+          <div class="hero-visual-shade"></div>
+          <div class="hero-visual-caption"><span>01 / 03</span><span>YENİ NESİL SERVİS DENEYİMİ</span></div>
+          <div class="hero-corner" aria-hidden="true"><svg viewBox="0 0 72 72" fill="none"><path d="M12 54L54 12M22 12h32v32" stroke="currentColor" stroke-width="2"/></svg></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>TEKNOLOJİ <b>×</b> USTALIK <b>×</b> KURUMSAL STANDART</span><span class="scroll-cue">AŞAĞI KAYDIR <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="vision-section section-pad" id="vizyon">
+      <div class="container">
+        <div class="section-kicker"><span class="kicker-index">01</span><span>BÜYÜK RESİM</span></div>
+        <div class="vision-grid">
+          <h2>Güçlü bir servis,<br><em>güçlü bir sistem</em> ister.</h2>
+          <div class="vision-side"><p>Bir oto servisini başarılı yapan şey yalnızca iyi işçilik değildir. Doğru bilgiye ulaşmak, iş akışını yönetmek, müşteriye güven vermek ve her gün daha iyiye gitmek de gerekir.</p><p><strong>PIT STOP bu parçaları bir araya getirmeyi hedefliyor.</strong></p></div>
+        </div>
+        <div class="principles">
+          <div><span class="principle-no">01 /</span><strong>Düzen</strong><p>Dağınık kayıtlar yerine izlenebilir bir operasyon.</p></div>
+          <div><span class="principle-no">02 /</span><strong>Güven</strong><p>Açık iletişim, kayıtlı işlemler, şeffaf süreçler.</p></div>
+          <div><span class="principle-no">03 /</span><strong>Gelişim</strong><p>Standartlar, eğitim ve ölçülebilir ilerleme.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ecosystem section-pad" id="cozumler">
+      <div class="container">
+        <div class="section-kicker"><span class="kicker-index">02</span><span>EKOSİSTEM</span></div>
+        <div class="section-intro"><h2>Üç yapı.<br><span>Tek vizyon.</span></h2><p>Yazılımdan iş ortaklığına, eğitimden kalite anlayışına uzanan bütünleşik bir yaklaşım.</p></div>
+        <div class="solution-grid">
+          <a class="solution-card" href="#yazilim"><div class="card-image"><img src="assets/workshop.webp" alt="PIT STOP konsept atölyesinde çalışan teknisyen" width="1200" height="750" loading="lazy"></div><div class="solution-top"><span class="solution-nr">01 / DİJİTAL PLATFORM</span><span class="out-arrow" aria-hidden="true">↗</span></div><div class="solution-body"><h3>PIT STOP <span>OS</span></h3><p>Araç kabulünden iş emrine, müşteri geçmişinden finans takibine kadar servis operasyonlarının dijital merkezi.</p><span class="stage-label">Geliştirme aşamasında</span></div></a>
+          <a class="solution-card" href="#partner"><div class="card-image"><img src="assets/partner.webp" alt="PIT STOP marka kimliğiyle tasarlanmış modern partner servis konsepti" width="1300" height="812" loading="lazy"></div><div class="solution-top"><span class="solution-nr">02 / İŞ ORTAKLIĞI</span><span class="out-arrow" aria-hidden="true">↗</span></div><div class="solution-body"><h3>PIT STOP <span>Partner</span></h3><p>Bağımsız servislerin kendi ustalıklarını koruyarak daha güçlü bir marka ve operasyon standardıyla gelişmesi.</p><span class="stage-label">Planlama aşamasında</span></div></a>
+          <a class="solution-card" href="#academy"><div class="card-image"><img src="assets/academy.webp" alt="Teknik eğitim alan servis personellerini gösteren PIT STOP Academy konsept görseli" width="1200" height="750" loading="lazy"></div><div class="solution-top"><span class="solution-nr">03 / EĞİTİM & KALİTE</span><span class="out-arrow" aria-hidden="true">↗</span></div><div class="solution-body"><h3>PIT STOP <span>Academy</span></h3><p>Teknisyen gelişimini, sistem eğitimini ve hizmet kalitesini aynı çatı altında destekleyecek eğitim modeli.</p><span class="stage-label">Planlama aşamasında</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="software-section section-pad" id="yazilim">
+      <div class="container software-grid">
+        <div class="software-copy">
+          <div class="section-kicker"><span class="kicker-index">03</span><span>PIT STOP OS</span></div>
+          <h2>Her şeyin<br><span>kontrol altında</span><br>olduğu bir servis.</h2>
+          <p>Servis danışmanı, teknisyen ve işletme yöneticisi aynı bilgiye, kendi yetkileriyle erişsin. İşlem geçmişi kaybolmasın; atölyede ne olup bittiği anlaşılır olsun.</p>
+          <div class="software-feature"><span class="feature-icon">↳</span><div><strong>VIN merkezli araç geçmişi</strong><small>Plaka ve sahip değişse de teknik işlemler araçla ilişkili kalır.</small></div></div>
+          <div class="software-feature"><span class="feature-icon">↳</span><div><strong>Operasyon ve cari hesap</strong><small>İş emirleri, parça/işçilik kayıtları ve tahsilat takibi.</small></div></div>
+          <div class="software-feature"><span class="feature-icon">↳</span><div><strong>Rol bazlı atölye yönetimi</strong><small>Yönetim ve teknisyen için farklı yetki ve ekran yapısı.</small></div></div>
+          <p class="small-disclaimer">Bazı özellikler halen geliştirilmekte ve test edilmektedir.</p>
+        </div>
+        <div class="dashboard-wrap">
+          <div class="dashboard-top-caption"><span class="live-pip"></span>PIT STOP OS <span>— ARAYÜZ KONSEPTİ</span></div>
+          <div class="dashboard">
+            <div class="dash-side"><span class="dash-logo">P<span>·</span></span><span class="dash-side-icon active">▦</span><span class="dash-side-icon">⌕</span><span class="dash-side-icon">▤</span><span class="dash-side-icon">⚙</span></div>
+            <div class="dash-main"><div class="dash-top"><div><small>OPERASYON / GENEL BAKIŞ</small><strong>Servis Merkezi</strong></div><span class="dash-branch">Silivri Şubesi <span>⌄</span></span></div><div class="dash-cards"><div><small>Bugünkü araçlar</small><strong>08</strong><span>Örnek veri</span></div><div><small>Devam eden işler</small><strong>04</strong><span>Örnek veri</span></div><div><small>Kontrol bekleyen</small><strong>02</strong><span>Örnek veri</span></div></div><div class="dash-table"><div class="dash-table-head"><strong>Aktif iş emirleri</strong><span>Son hareketler</span></div><div class="dash-row"><span class="plate">34 ABC 123</span><span>Renault Clio</span><b class="pill orange">İşlemde</b></div><div class="dash-row"><span class="plate">59 XYZ 456</span><span>Ford Focus</span><b class="pill red">Onay bekliyor</b></div><div class="dash-row"><span class="plate">34 DEF 789</span><span>Volkswagen Golf</span><b class="pill green">Kontrolde</b></div><div class="dash-row"><span class="plate">34 GHI 012</span><span>Fiat Egea</span><b class="pill orange">Bekliyor</b></div></div><div class="dash-foot"><span>İş akışını tek ekrandan takip et</span><span>● ● ●</span></div></div>
+          </div>
+          <div class="dashboard-tag">Temsili arayüz · gerçek müşteri verisi içermez</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement" aria-label="PIT STOP marka anlayışı"><div class="container statement-inner"><span>BAĞIMSIZLIĞINI KORU.</span><strong>STANDARDINI YÜKSELT.</strong><span class="statement-line"></span></div></section>
+
+    <section class="partner-section section-pad" id="partner">
+      <div class="container split-grid">
+        <div class="split-image"><img src="assets/partner.webp" alt="PIT STOP logolu modern servis merkezi konsept dış görünümü" width="1300" height="812" loading="lazy"><span class="image-tag">PIT STOP PARTNER / KONSEPT GÖRSEL</span></div>
+        <div class="split-text"><div class="section-kicker"><span class="kicker-index">04</span><span>PIT STOP PARTNER</span></div><h2>Kendi işin.<br><span>Ortak bir güç.</span></h2><p>Güçlü ustalığı kaybetmeden daha iyi bir işletme deneyimi oluşturmak mümkün. PIT STOP Partner modeli; bağımsız servisleri kurumsal kimlik, dijital süreçler ve kalite standartlarıyla buluşturmak üzere planlanıyor.</p><ul><li>Kurumsal kimlik ve atölye standartları</li><li>Ortak dijital operasyon yaklaşımı</li><li>Eğitim ve kalite gelişim desteği</li></ul><a class="partner-cta" href="#iletisim">İş ortaklığı hakkında iletişime geç <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="academy-section section-pad" id="academy">
+      <div class="container split-grid reverse">
+        <div class="split-text"><div class="section-kicker"><span class="kicker-index">05</span><span>PIT STOP ACADEMY</span></div><h2>Kalite tesadüf değil.<br><span>Bir kültürdür.</span></h2><p>İyi bir servis deneyimi, sürekli öğrenen ekiplerle mümkün. PIT STOP Academy; teknik bilgi, müşteri deneyimi ve operasyon standartlarını aynı eğitim anlayışı altında birleştirmek üzere tasarlanıyor.</p><ul><li>Teknik yetkinlik ve sistem eğitimleri</li><li>Standart işçilik ve kalite kontrol</li><li>Ölçülebilir gelişim ve sertifikasyon vizyonu</li></ul><span class="coming-soon">Eğitim modeli geliştirme aşamasındadır.</span></div>
+        <div class="split-image"><img src="assets/academy.webp" alt="Atölye ortamında gerçekleştirilen teknik eğitim konsepti" width="1200" height="750" loading="lazy"><span class="image-tag">PIT STOP ACADEMY / KONSEPT GÖRSEL</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="iletisim"><div class="container contact-layout"><div><div class="section-kicker"><span class="kicker-index">06</span><span>İLETİŞİM</span></div><h2>Geleceği<br><span>konuşalım.</span></h2><p>PIT STOP OS, iş ortaklığı modeli veya proje hakkında görüşmek için doğrudan iletişime geçebilirsin.</p><span class="contact-note">PIT STOP henüz geliştirme aşamasındadır. İletişim, proje tanıtımı ve iş birliği görüşmeleri içindir.</span></div><div class="contact-info"><div class="contact-item"><span class="contact-label">E-POSTA</span><a href="mailto:eeisciler0@gmail.com">eeisciler0@gmail.com <span aria-hidden="true">↗</span></a></div><div class="contact-item"><span class="contact-label">TELEFON</span><a href="tel:+905075937288">+90 507 593 72 88 <span aria-hidden="true">↗</span></a></div><div class="contact-item no-border"><span class="contact-label">PROJE</span><strong>PIT STOP · Otomotiv Teknolojileri</strong></div></div></div></section>
   </main>
-  <footer class="footer"><div class="wrap"><div class="footer-inner"><div><div class="brand" style="font-size:19px"><span class="mark" style="width:30px;height:30px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4"><path d="M5 17L12 5l7 12M8.5 12h7"/></svg></span>PIT STOP</div><p style="margin:16px 0 0">Bağımsız servisler için teknoloji ve operasyon vizyonu.</p></div><div><a href="#anasayfa">Başa dön</a><a href="/gizlilik.html">Gizlilik</a></div></div><div class="copyright">© <span id="year"></span> PIT STOP · Tanıtım sitesi · Geliştirme aşamasında</div></div></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+
+  <footer class="footer"><div class="container footer-main"><a href="#ust" class="footer-brand" aria-label="PIT STOP ana sayfa"><img class="footer-logo-img" src="assets/pitstop-logo-full.png" alt="PIT STOP Otomotiv Teknolojileri" width="315" height="55"></a><div class="footer-links"><a href="#vizyon">Vizyonumuz</a><a href="#yazilim">PIT STOP OS</a><a href="#partner">Partner</a><a href="#academy">Academy</a><a href="gizlilik.html">Gizlilik</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> PIT STOP. Tanıtım amaçlı proje sitesi.</span><span>İSTANBUL, TÜRKİYE <span class="red-dot">●</span> GELİŞTİRME AŞAMASINDA</span></div></footer>
 </body>
 </html>
